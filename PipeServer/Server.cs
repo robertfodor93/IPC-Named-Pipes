@@ -38,7 +38,7 @@ namespace PipeServer
         string pipeName;
         Thread listenThread;
         bool running;
-        List<Client> clients;
+        readonly List<Client> clients;
 
         public string PipeName
         {
