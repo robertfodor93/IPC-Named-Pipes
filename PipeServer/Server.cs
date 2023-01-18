@@ -42,13 +42,22 @@ namespace PipeServer
 
         public string PipeName
         {
-            get { return this.pipeName; }
-            set { this.pipeName = value; }
+            get 
+            { 
+                return this.pipeName; 
+            }
+            set 
+            { 
+                this.pipeName = value; 
+            }
         }
 
         public bool Running
         {
-            get { return this.running; }
+            get 
+            { 
+                return this.running; 
+            }
         }
 
         public Server()

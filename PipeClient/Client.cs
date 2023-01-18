@@ -36,13 +36,22 @@ namespace PipeClient
 
         public bool Connected
         {
-            get { return this.connected; }
+            get 
+            { 
+                return this.connected; 
+            }
         }
 
         public string PipeName
         {
-            get { return this.pipeName; }
-            set { this.pipeName = value; }
+            get 
+            { 
+                return this.pipeName; 
+            }
+            set 
+            { 
+                this.pipeName = value; 
+            }
         }
 
         public void Connect()
